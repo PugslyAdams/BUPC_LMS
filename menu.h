@@ -178,8 +178,11 @@ void studentList() {
 
 
 void sortbylastname() {
-    
-
+     string firstname, lastname, id, yearlevel,bookcategory, bookname, bookauthor, day, month, date, time, year;
+     sort(lastname.begin(), lastname.end(), [](firstname a, firstname b), [](id a, id b), [](yearlevel a, yearlevel b), [](bookcategory a, bookcategory b);
+                      [](bookname a, bookname b), [](bookauthor a, bookauthor b), [](day a, day b), [](month a, month b),[](date a, date b), [](time a, time b), [](year a, year b){return a.lastname < b.lastname});
+    for ((firstname i && id i && yearlevel && bookcategory && bookname && bookauthor && day && month && date && time && year) : (lastname))
+        return;
 }
 
 void getsizeandline() {
